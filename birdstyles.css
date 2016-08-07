@@ -1,0 +1,78 @@
+body {
+  background-color: whitesmoke;
+  color: dimgrey;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  font-family: Times, serif;
+}
+
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:active {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+div.flexOuter {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+div.flexInnerNav {
+  flex: 1 1 20%;
+  max-width: 20%;
+  padding: 0.5em 0;
+
+}
+
+div.flexInnerHeader {
+  flex: 2 1 20%;
+  max-width: 70%;
+  padding: 0.5em 0.5em;
+  text-align: center;
+
+}
+
+div.button {
+  background-color: dimgray;
+  color: whitesmoke;
+  padding: 0.6em 0.6em 0.6em 0.6em;
+  margin: 0.6em 0.6em 0 0.6em;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  max-width: 5em;
+  border-radius: 0 4px 0 4px;
+}
+
+div.button:hover {
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  margin: 0.5em;
+}
+
+td {
+  padding: 0.5em;
+  margin: 0.5em;
+  text-align: center;
+}
